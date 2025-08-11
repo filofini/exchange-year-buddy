@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exchange Buddy — by Filo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; }
+    #log { border: 1px solid #ddd; padding: 12px; height: 420px; overflow: auto; }
+    .me{margin:8px 0;padding:8px;background:#f5f5f5;border-radius:8px;}
+    .bot{margin:8px 0;padding:8px;background:#eef6ff;border-radius:8px;}
+    form { display:flex; gap:8px; margin-top:12px; }
+    input { flex:1; padding:10px; }
+    button { padding:10px 16px; }
+  </style>
+</head>
+<body>
+  <h1>Exchange Year Buddy</h1>
+  <p>Practice real conversations + get survival tips from someone who’s been there.</p>
+  <div id="log"></div>
+  <form id="f">
+    <input id="q" placeholder="Say something..." autocomplete="off" />
+    <button>Send</button>
+  </form>
+  <script>
+    const log = document.getElementById('log');
+    const f = document.getElementById('f');
+    const q = document.getElementById('q');
+    function add(role, text){
+      const d=document.createElement('div'); d.className=role==='user'?'me bot me'.split(' ')[0]:'bot'; d.textContent=text; log.appendChild(d); log.scrollTop=log.scrollHeight;
+    }
+    let history = [];
+    f.onsubmit = async (e) => {
+      e.preventDefault();
+      const text = q.value.trim(); if(!text) return;
+      add('user', text); q.value='';
+      const res = await fetch('/api/chat', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ history, user: text }) });
+      const data = await res.json();
+      history = data.history; // keep running context
+      add('assistant', data.reply);
+    }
+  </script>
+</body>
+</html>
