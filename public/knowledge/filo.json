@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "name": "Filo",
+    "voice": "direct, friendly, practical; corrects gently in parentheses; prefers real-life phrasing over textbook",
+    "languages": ["it", "en"],
+    "notes": [
+      "Focus on exchange-student survival, not grammar drills.",
+      "When asked for tips, add a one-line 'Filo tip'.",
+      "Offer roleplays for common situations."
+    ]
+  },
+  "scenarios": [
+    {"title":"Meeting host family for the first time","phrases":{"it":"Grazie per avermi accolto! Farò del mio meglio per adattarmi.","en":"Thanks for having me! I’ll do my best to fit in."},"tips":["Offer help immediately; ask about basic house rules."]},
+    {"title":"Broke a plate","phrases":{"it":"Mi dispiace, è colpa mia. Posso ricomprarlo?","en":"I’m sorry, that’s on me. Can I replace it?"},"tips":["Own it, offer to replace, keep it brief."]},
+    {"title":"Late bus","phrases":{"it":"Il 5 è in ritardo di 20 minuti. C’è un’alternativa?","en":"The 5 is 20 minutes late. Is there another option?"},"tips":["State delay + route; ask options."]},
+    {"title":"First day at school/uni","phrases":{"it":"Ciao, sono in scambio. Posso unirmi a voi a pranzo?","en":"Hey, I’m on exchange. Mind if I join you for lunch?"},"tips":["Open with lunch/invite; join a group early."]},
+    {"title":"Buying a SIM card","phrases":{"it":"Mi serve una SIM con dati economici, consigli?","en":"I need a SIM with cheap data, any suggestions?"},"tips":["Ask locals which carrier actually has coverage."]},
+    {"title":"Grocery checkout small talk","phrases":{"it":"Tutto bene, grazie. Qui è sempre così affollato?","en":"All good, thanks. Is it always this busy here?"},"tips":["Casual small talk builds confidence."]},
+    {"title":"Ordering coffee to go","phrases":{"it":"Un cappuccino da asporto, per favore.","en":"One cappuccino to go, please."},"tips":["Mind local coffee norms; mornings vs afternoons."]},
+    {"title":"Asking for directions","phrases":{"it":"Scusi, qual è il modo più veloce per...","en":"Excuse me, what’s the fastest way to..."},"tips":["Repeat back to confirm; thank them."]},
+    {"title":"Landlord maintenance issue","phrases":{"it":"C’è una perdita nel lavandino. Possiamo fissare un controllo?","en":"There’s a leak in the sink. Can we schedule a fix?"},"tips":["Be specific; include photos if possible."]},
+    {"title":"Roommate noise at night","phrases":{"it":"Ti dispiace abbassare dopo mezzanotte? Domani ho lezioni presto.","en":"Could you keep it down after midnight? I’ve got early classes."},"tips":["Polite ask + reason."]},
+    {"title":"Making new friends in class","phrases":{"it":"Sto ancora imparando la lingua, ti va di fare coppia?","en":"I’m still learning the language—want to pair up?"},"tips":["Own your level; ask for help."]},
+    {"title":"Gym membership front desk","phrases":{"it":"Avete abbonamenti studenti?","en":"Do you have student memberships?"},"tips":["Always ask for student rates."]},
+    {"title":"Buying train tickets","phrases":{"it":"C’è uno sconto giovani sotto i 25?","en":"Is there a youth under-25 discount?"},"tips":["Youth discounts are common."]},
+    {"title":"Doctor/pharmacy visit","phrases":{"it":"Ho questo sintomo da due giorni.","en":"I’ve had this symptom for two days."},"tips":["Be concise; dates and intensity help."]},
+    {"title":"Bank account question","phrases":{"it":"Serve un appuntamento o posso venire senza?","en":"Do I need an appointment or can I walk in?"},"tips":["Ask documents needed to avoid repeat trips."]},
+    {"title":"Cultural misunderstanding","phrases":{"it":"Scusa, non era mia intenzione. Come si fa di solito qui?","en":"Sorry, that wasn’t my intention. How is it usually done here?"},"tips":["Ask the norm; people appreciate it."]},
+    {"title":"Inviting classmates out","phrases":{"it":"Stiamo andando per un gelato dopo le lezioni, vieni?","en":"We’re grabbing ice cream after class, want to come?"},"tips":["Low-commitment invites work best."]},
+    {"title":"Missing a class","phrases":{"it":"Potresti condividere gli appunti? Ti offro un caffè.","en":"Could you share the notes? Coffee’s on me."},"tips":["Reciprocity softens the ask."]},
+    {"title":"At a party—introductions","phrases":{"it":"Ciao, sono qui in scambio. Tu di dove sei?","en":"Hey, I’m here on exchange. Where are you from?"},"tips":["Ask simple origin/major questions."]},
+    {"title":"Apologizing for language mistakes","phrases":{"it":"Sto ancora imparando, correggimi pure.","en":"I’m still learning—feel free to correct me."},"tips":["Invite correction."]},
+    {"title":"Group project coordination","phrases":{"it":"Preferite WhatsApp o email per organizzarci?","en":"Do you prefer WhatsApp or email to coordinate?"},"tips":["Pick the channel early."]},
+    {"title":"Buying bus pass","phrases":{"it":"Qual è l’abbonamento più conveniente per studenti?","en":"What’s the most affordable student pass?"},"tips":["Monthly often beats single rides."]},
+    {"title":"Café seating etiquette","phrases":{"it":"Posso sedermi anche senza ordinare subito?","en":"Can I sit even if I don’t order right away?"},"tips":["Some places charge table service."]},
+    {"title":"Asking for plug adapter","phrases":{"it":"Avete un adattatore per presa europea?","en":"Do you have a European plug adapter?"},"tips":["Hostels often lend them."]},
+    {"title":"Lost item on bus","phrases":{"it":"Ho dimenticato lo zaino sulla linea 7. Chi posso contattare?","en":"I left my backpack on line 7. Who can I contact?"},"tips":["Route, time, seat area helps."]},
+    {"title":"First day jitters","phrases":{"it":"Sono un po’ nervoso, ma carico.","en":"I’m a bit nervous, but excited."},"tips":["Normalize nerves; take action anyway."]},
+    {"title":"Café to-go vs table","phrases":{"it":"È possibile da asporto?","en":"Is it possible to get it to go?"},"tips":["Different pricing is common."]},
+    {"title":"Library card","phrases":{"it":"Come faccio la tessera? Serve un documento?","en":"How do I get a library card? Do I need ID?"},"tips":["Often free for students."]},
+    {"title":"Rain plan","phrases":{"it":"C’è un posto al coperto carino dove stare con amici?","en":"Is there a nice indoor spot to hang with friends?"},"tips":["Have 2–3 default rainy day spots."]},
+    {"title":"Polite disagreement","phrases":{"it":"Capisco, però non sono d’accordo per questo motivo…","en":"I get it, but I disagree because…"},"tips":["Lead with ‘I get it’."]}
+  ],
+  "slang": {
+    "it": ["Che sbatti!", "Ci sta", "Figata", "Boh", "Spaccare", "Fare aperitivo", "Andare alla grande"],
+    "en": ["what’s the craic", "you’re grand", "no worries", "my bad", "that slaps", "low-key", "high-key"]
+  },
+  "do_donts": {
+    "it": {"do":["Dì ‘permesso’ quando passi in spazi stretti","Saluta quando entri/esci"],"dont":["Non saltare la fila","Non urlare in luoghi chiusi"]},
+    "en": {"do":["Small talk with drivers/cashiers","Say please/thanks often"],"dont":["Don’t stand too close in queues","Don’t blast music on buses"]}
+  }
+}
